@@ -1,0 +1,87 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+    font-family: 'AnimalsNormal';
+    src: url('/assets/animals-webfont.eot');
+    src: url('/assets/animals-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/animals-webfont.woff') format('woff'),
+         url('/assets/animals-webfont.ttf') format('truetype'),
+         url('/assets/animals-webfont.svg#AnimalsNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#pag1
+{
+	color: #000;
+	font-size:13.5px;
+	top:50%;
+}
+
+#pieP
+{
+	bottom:50px;
+}
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+
+
+
+.inicio {
+	/**width: 100%; **//**tamaño**/
+		
+}
+
+div .inicio .intro {
+	/**
+		position: absolute;
+	height: 500px;
+	**/
+
+}
+
+.inicio > header h1 {
+	font-size: 34px;
+	line-height: 38px;
+	margin: 0;
+	font-weight: 700;
+	color: #333;
+	float: left;
+}
+
+/* Estilo de la cabecera */
+.codrops-top {
+	line-height: 24px;
+	font-size: 11px;
+	background: #000;
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	font-family: Cambria, Georgia, serif;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow:1px 0px 2px #e0d1bc;
+	-webkit-box-shadow:2px 1px 5px #e0d1bc; 
+	box-shadow:2px 1px 5px #e0d1bc;
+}
+
+.codrops-top a {
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #fff;
+	display: inline-block;
+}
+
+.codrops-top a:hover {
+	background: rgba(255,255,255,0.6);
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}

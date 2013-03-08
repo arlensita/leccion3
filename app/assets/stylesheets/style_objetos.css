@@ -1,0 +1,53 @@
+a
+{
+	color:#000;
+}
+/* TEXTO */
+body
+{
+	background: rgb(179,1,55);
+}
+
+h2, h5
+{
+	margin:20px 20px 10px 20px; font-size:30px; color:#fff; font-family:'Volkhov',sans-serif;
+	font-weight:700; text-shadow:5px 5px 3px #000;
+}
+
+h1
+{
+	margin-left:325px;
+	font-family: Garamond, serif;
+	line-height: 1em;
+	color: #fff9d6;
+	font-weight:bold;
+	font-size: 27px;
+	text-shadow:0px 0px 0 rgb(216,216,216),1px 1px 0 rgb(187,187,187),2px 2px 0 rgb(158,158,158), 3px 3px 0 rgb(129,129,129),4px 4px 3px rgba(0,0,0,0.6),4px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);
+}
+
+h1 span, h5
+{
+	font-size:18px; display:block; font-style:italic; color:#997f5a; font-weight:400; text-shadow:0px 1px 1px #fff;
+} 
+
+h1:hover
+{
+	text-shadow:3px 3px 15px #e0d1bc;
+}
+
+h1 span:hover
+{
+	color:#fff;
+}
+
+/* Encabezado */
+.encabezado
+{
+	height:25px; line-height:24px; font-size:11px; background:#000; opacity:0.9;
+	text-transform:uppercase; -moz-box-shadow:1px 0px 2px #e0d1bc;
+	-webkit-box-shadow:2px 1px 5px #e0d1bc; box-shadow:2px 1px 5px #e0d1bc;
+}
+.encabezado a             { padding:5px 10px; letter-spacing:1px; color:#ddd; text-align:right; }
+.encabezado a:hover       { color:#fff; }
+.encabezado a span        { font-weight:bold; }
+.encabezado span.right_ab { position:absolute; right:10px; }
