@@ -21,26 +21,12 @@
 				<div class="row">
 					
 					<div class="two columns">
-						
-						<%@etiquetas.each do |p|%>
-						  	
-						  		<div class="row"><div id="etiqueta2" class="caracteristica arrastrable"></div><%= @p.Linea%></div>
-				  		  	
-        				<%end%>	
+ 						<%@etiquetas.each do |p|%>
+  							
+  							 <div class="row"><div id="etiqueta<%=Random.rand(1...11)%>"  class="caracteristica arrastrable"><%=p.Linea%></div></div>
+						 <%end%>      
+					</div>
         				
-        				</div>
-        				<!-->
-						
-						<div class="row"><div id="etiqueta2"  class="caracteristica arrastrable"><%= @etiquetas.Linea%></div></div>
-						<div class="row"><div id="etiqueta3"  class="caracteristica	arrastrable">Marca</div></div>
-						<div class="row"><div id="etiqueta4"  class="comportamiento	arrastrable">Acelerar</div></div>
-						<div class="row"><div id="etiqueta1"  class="comportamiento	arrastrable">Frenar</div></div>
-						<div class="row"><div id="etiqueta5"  class="caracteristica	arrastrable">Motor</div></div>
-						<div class="row"><div id="etiqueta6"  class="comportamiento	arrastrable">Retroceder</div></div>
-						<div class="row"><div id="etiqueta7"  class="comportamiento	arrastrable">Encender</div></div>
-						<div class="row"><div id="etiqueta8"  class="caracteristica arrastrable">Color</div></div>
-						<div class="row"><div id="etiqueta9"  class="comportamiento	arrastrable">Apagar</div></div>
-						<div class="row"><div id="etiqueta10" class="caracteristica	arrastrable">Año</div></div>-->
 					
 									
 					<div class="three columns">

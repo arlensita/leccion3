@@ -21,7 +21,9 @@ class Leccion3Controller < ApplicationController
   end
   
   def ejercicio1
-    @etiquetas=DetalleEjercicios.all.to_a.shuffle
+    
+    @etiquetas=DetalleEjercicio.all.to_a.shuffle
+    
   end
   
   def ejercicio2
