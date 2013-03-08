@@ -21,7 +21,17 @@
 				<div class="row">
 					
 					<div class="two columns">
-						<div class="row"><div id="etiqueta2"  class="caracteristica arrastrable">Modelo</div></div>
+						
+						<%@etiquetas.each do |p|%>
+						  	
+						  		<div class="row"><div id="etiqueta2" class="caracteristica arrastrable"></div><%= @p.Linea%></div>
+				  		  	
+        				<%end%>	
+        				
+        				</div>
+        				<!-->
+						
+						<div class="row"><div id="etiqueta2"  class="caracteristica arrastrable"><%= @etiquetas.Linea%></div></div>
 						<div class="row"><div id="etiqueta3"  class="caracteristica	arrastrable">Marca</div></div>
 						<div class="row"><div id="etiqueta4"  class="comportamiento	arrastrable">Acelerar</div></div>
 						<div class="row"><div id="etiqueta1"  class="comportamiento	arrastrable">Frenar</div></div>
@@ -30,8 +40,8 @@
 						<div class="row"><div id="etiqueta7"  class="comportamiento	arrastrable">Encender</div></div>
 						<div class="row"><div id="etiqueta8"  class="caracteristica arrastrable">Color</div></div>
 						<div class="row"><div id="etiqueta9"  class="comportamiento	arrastrable">Apagar</div></div>
-						<div class="row"><div id="etiqueta10" class="caracteristica	arrastrable">Año</div></div>
-					</div>
+						<div class="row"><div id="etiqueta10" class="caracteristica	arrastrable">Año</div></div>-->
+					
 									
 					<div class="three columns">
 						
